@@ -1,0 +1,20 @@
+# Core dependencies for WhisperX
+git+https://github.com/m-bain/whisperx.git
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+transformers>=4.19.0
+faster-whisper>=0.9.0
+pyannote.audio>=3.1.1
+
+# Audio recording and processing
+sounddevice>=0.4.6
+PyAudio>=0.2.13
+scipy>=1.10.1
+numpy>=1.24.3
+
+# Speaker diarization
+hf_xet>=1.0.0
+
+# File handling and utilities
+python-dotenv>=1.0.0
